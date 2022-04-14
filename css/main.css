@@ -1,0 +1,31 @@
+/*
+@author: DAEM IMRAN
+*/
+
+/****** reseting style *********/
+
+@import url("reset.min.css");
+
+/****** START HERE *********/
+
+body {
+  background-color: #000;
+  overflow: hidden;
+}
+#canvas {
+  background-color: #000;
+  display: block;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+
+}
+.background{
+  background-color: #000; 
+  position: absolute; 
+  top:0; 
+  left:0; 
+  width: 100px; 
+  height: 100px; 
+  z-index: 9999999;
+}
